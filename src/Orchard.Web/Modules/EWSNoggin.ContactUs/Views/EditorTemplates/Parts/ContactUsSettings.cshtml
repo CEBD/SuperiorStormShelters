@@ -1,0 +1,8 @@
+@model EWSNoggin.ContactUs.Models.ContactUsSettingsPart
+@Html.HiddenFor(m => m.Id)
+<fieldset>
+	<label for="@Html.FieldIdFor(m => m.RecipientUserName)">@T("Recipient user name")</label>
+	<span class="hint">@T("The Orchard User you want to receive the messages.")</span>
+	@Html.EditorFor(m => m.RecipientUserName)
+	@Html.ValidationMessage("MessageTo", "*")
+</fieldset>

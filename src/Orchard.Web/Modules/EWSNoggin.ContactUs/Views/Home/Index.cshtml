@@ -1,0 +1,22 @@
+@model EWSNoggin.ContactUs.ViewModels.ContactUsFormViewModel
+@{
+	Layout.Title = "Contact Us";
+}
+<h1>@Layout.Title</h1>
+@using (Html.BeginFormAntiForgeryPost()) {
+	<fieldset>
+		<p>@Html.LabelFor(m => m.Name)
+			@Html.TextBoxFor(m => m.Name)
+			@Html.ValidationMessageFor(m => m.Name)</p>
+
+		<p>@Html.LabelFor(m => m.Email)
+			@Html.TextBoxFor(m => m.Email)
+			@Html.ValidationMessageFor(m => m.Email)</p>
+
+		<p>@Html.LabelFor(m => m.Message)
+			@Html.TextAreaFor(m => m.Message, new { Cols = 50, Rows = 8 })
+			<br />@Html.ValidationMessageFor(m => m.Message)</p>
+
+		<p><input class="button primaryAction" type="submit" value="@T("Send")" /></p>
+	</fieldset>
+}

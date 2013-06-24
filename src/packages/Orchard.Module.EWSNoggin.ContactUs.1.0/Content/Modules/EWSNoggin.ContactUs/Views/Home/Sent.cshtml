@@ -1,0 +1,9 @@
+@model EWSNoggin.ContactUs.ViewModels.ContactUsFormViewModel
+@{
+	Layout.Title = "Your message";
+}
+<h1>@Layout.Title</h1>
+
+<p><strong>@Model.Name</strong> &lt;@Model.Email&gt;</p>
+<p><strong>Message</strong></p>
+@Model.Message

@@ -72,7 +72,7 @@
       page create /Slug:"independent-contractor-home" /Title:"Brand New Independent Contractor Site" /Path:"independent-contractor-home" /Homepage:true /Publish:true /UseWelcomeText:true
       page create /Slug:"new-construction" /Title:"New Construction"   /Path:"~/new-construction" /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"New Construction" /MenuName:"Main Menu"
       page create /Slug:"remodeling"  /Title:"Home Remodeling" /Path:"~/remodeling"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"Remodeling"   /MenuName:"Main Menu"
-      page create /Slug:"remodeling"  /Title:"Gallery + Testimonials" /Path:"~/gallery-and-testimonials"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"Gallery+Testimonials"   /MenuName:"Main Menu"
+      page create /Slug:"gallery-and-testimonials"  /Title:"Gallery + Testimonials" /Path:"~/gallery-and-testimonials"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"Gallery+Testimonials"   /MenuName:"Main Menu"
       
       page create /Slug:"about"  /Title:"About" /Path:"~/about"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"About"   /MenuName:"Main Menu"
       page create /Slug:"contact"  /Title:"Contact" /Path:"~/contact"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"Contact"   /MenuName:"Main Menu"

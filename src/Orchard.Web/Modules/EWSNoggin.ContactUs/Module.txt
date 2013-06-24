@@ -1,0 +1,12 @@
+﻿Name: Contact us
+AntiForgery: enabled
+Author: Richard Garside of NogginBox & Aaron Rhoades of East Watch Services
+Website: http://orchardcontactus.codeplex.com/
+Version: 1.0
+OrchardVersion: 1.1
+Description: Adds a contact us page to your website.
+Features:
+    EWSNoggin.ContactUs:
+        Description: Adds a contact us page to your website.
+        Dependencies: Orchard.Email
+        Category: Messaging

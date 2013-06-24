@@ -1,0 +1,82 @@
+﻿<?xml version="1.0"?>
+
+<Orchard>
+  <Recipe>
+    <Name>Small Business</Name>
+    <Description>Basic Recipe for a Small Business</Description>
+    <Author>Jesse and Amanda Harlin</Author>
+    <WebSite>http://orchardproject.net</WebSite>
+    <Tags></Tags>
+    <Version>1.0</Version>
+  </Recipe>
+
+  <Feature
+      enable=" 
+                Orchard.jQuery,                
+                Orchard.Tags,
+                Orchard.Lists,
+                TinyMce,
+                Orchard.Media,
+                Orchard.MediaPicker,
+                Orchard.ContentPicker,
+                Orchard.PublishLater,
+                Orchard.Widgets,
+                Orchard.Widgets.PageLayerHinting,
+                Orchard.ContentTypes,
+                Orchard.Scripting,
+                Orchard.Projections,
+                Orchard.Forms,
+                Orchard.Scripting.Lightweight,
+                Simian.Libraries,
+                Simian.Framework,
+                PackagingServices,
+                Orchard.Packaging,
+                Gallery,Gallery.Updates,
+                Bootstrap,
+                TheThemeMachine" />
+  <Metadata>
+    <Types>
+      <Page ContentTypeSettings.Draftable="True" TypeIndexing.Included="true">
+        <TagsPart />
+        <LocalizationPart />
+      </Page>
+    </Types>
+    <Parts>
+      <BodyPart BodyPartSettings.FlavorDefault="html" />
+    </Parts>
+  </Metadata>
+
+  <Settings />
+
+  <Migration features="*" />
+
+  <Command>
+    layer create Default /LayerRule:"true" /Description:"The widgets in this layer are displayed on all pages"
+    layer create Authenticated /LayerRule:"authenticated" /Description:"The widgets in this layer are displayed when the user is authenticated"
+    layer create Anonymous /LayerRule:"not authenticated" /Description:"The widgets in this layer are displayed when the user is anonymous"
+    layer create Disabled /LayerRule:"false" /Description:"The widgets in this layer are never displayed"
+    layer create TheHomepage /LayerRule:"url '~/'" /Description:"The widgets in this layer are displayed on the home page"
+    layer create Products /LayerRule:"url '~/products'" /Description:"The widgets in this layer are displayed on the products page"
+    layer create Fibgerglass /LayerRule:"url '~/fiberglass'" /Description:"The widgets in this layer are displayed on the fibgerglass page"
+    layer create About /LayerRule:"url '~/about'" /Description:"The widgets in this layer are displayed on the about page"
+    layer create Contact /LayerRule:"url '~/contact'" /Description:"The widgets in this layer are displayed on the contact page"
+
+    site setting set baseurl
+
+    theme activate "SmallBusiness"
+
+    widget create GalleriaImageGalleryWidget /Title:"Main Page Gallery" /Zone:"Billboard" /Position:"1" /Layer:"TheHomepage" /RenderTitle:false /Identity:"HomePageGallery"
+
+    menu create /MenuName:"Main Menu"
+
+    page create /Slug:"home" /Title:"Brand New Small Business Site" /Path:"~/" /Homepage:true /Publish:true /UseWelcomeText:true
+    page create /Slug:"products" /Title:"Products"   /Path:"~/products" /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"Products" /MenuName:"Main Menu"
+    page create /Slug:"fiberglass"  /Title:"Fiberglass" /Path:"~/fiberglass"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"Fiberglass"   /MenuName:"Main Menu"
+
+    page create /Slug:"about"  /Title:"About" /Path:"~/about"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"About"   /MenuName:"Main Menu"
+    page create /Slug:"contact"  /Title:"Contact" /Path:"~/contact"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"Contact"   /MenuName:"Main Menu"
+
+    widget create MenuWidget /Title:"Main Menu" /RenderTitle:false /Zone:"Navigation" /Position:"1" /Layer:"Default" /Identity:"MenuWidget1" /MenuName:"Main Menu"
+
+  </Command>
+</Orchard>

@@ -90,6 +90,53 @@
     <Content Include="Bootstrap\Styles\site.css" />
     <Content Include="Bootstrap\Theme.png" />
     <Content Include="Bootstrap\Theme.txt" />
+    <Content Include="SmallBusiness\Scripts\jquery-1.8.2.min.js" />
+    <Content Include="SmallBusiness\Scripts\jquery-ui-1.10.0.custom.min.js" />
+    <Content Include="SmallBusiness\Scripts\parts\search.js" />
+    <Content Include="SmallBusiness\Scripts\simiansblog.js" />
+    <Content Include="SmallBusiness\Styles\debug.css" />
+    <Content Include="SmallBusiness\Styles\font.css" />
+    <Content Include="SmallBusiness\Styles\fonts\arkitechlight.svg" />
+    <Content Include="SmallBusiness\Styles\fonts\neogreyregular-webfont.svg" />
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard.dev.svg" />
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard.svg" />
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\fonts\SimiansBlogStandard.dev.svg" />
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\fonts\SimiansBlogStandard.svg" />
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\index.html" />
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\license.txt" />
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\lte-ie7.js" />
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\style.css" />
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\ui-icon\fonts\ui-icon.svg" />
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\ui-icon\index.html" />
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\ui-icon\lte-ie7.css" />
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\ui-icon\style.css" />
+    <Content Include="SmallBusiness\Styles\fonts\spaceman-webfont.svg" />
+    <Content Include="SmallBusiness\Styles\fonts\ui-icon.svg" />
+    <Content Include="SmallBusiness\Styles\navigator.css" />
+    <Content Include="SmallBusiness\Styles\parts\search.css" />
+    <Content Include="SmallBusiness\Styles\reset.css" />
+    <Content Include="SmallBusiness\Styles\simian\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="SmallBusiness\Styles\simian\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="SmallBusiness\Styles\simian\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="SmallBusiness\Styles\simian\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="SmallBusiness\Styles\simian\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="SmallBusiness\Styles\simian\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="SmallBusiness\Styles\simian\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="SmallBusiness\Styles\simian\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="SmallBusiness\Styles\simian\images\ui-icons_222222_256x240.png" />
+    <Content Include="SmallBusiness\Styles\simian\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="SmallBusiness\Styles\simian\images\ui-icons_454545_256x240.png" />
+    <Content Include="SmallBusiness\Styles\simian\images\ui-icons_888888_256x240.png" />
+    <Content Include="SmallBusiness\Styles\simian\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="SmallBusiness\Styles\simian\jquery-ui-1.10.0.custom.css" />
+    <Content Include="SmallBusiness\Styles\simian\jquery-ui-1.10.0.custom.min.css" />
+    <Content Include="SmallBusiness\Styles\Site.css" />
+    <Content Include="SmallBusiness\Styles\waffles.css" />
+    <Content Include="SmallBusiness\Theme.png" />
+    <Content Include="SmallBusiness\Theme.txt" />
+    <Content Include="SmallBusiness\ThemeZonePreview.png" />
+    <Content Include="SmallBusiness\Views\assets\noisy-texture-200x200-o5-d22-c-6b1018-t1.png" />
+    <Content Include="SmallBusiness\Views\assets\waffle-logo-large.png" />
     <Content Include="IndependentContractor\Scripts\jquery-1.8.2.min.js" />
     <Content Include="IndependentContractor\Scripts\jquery-ui-1.10.0.custom.min.js" />
     <Content Include="IndependentContractor\Scripts\parts\search.js" />
@@ -186,6 +233,7 @@
     <Content Include="SimiansBlog\Theme.txt" />
     <Content Include="SimiansBlog\ThemeZonePreview.png" />
     <Content Include="SimiansBlog\Views\assets\waffle-logo-large.png" />
+    <Content Include="SmallBusiness\Styles\images\filter1_gray.png" />
     <Content Include="TheAdmin\Scripts\admin.js" />
     <Content Include="TheAdmin\Styles\ie.css" />
     <Content Include="TheAdmin\Styles\ie7.css" />
@@ -507,6 +555,102 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="IndependentContractor\Views\SiteTitle.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Placement.info" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Scripts\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\arkitechlight.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\arkitechlight.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\arkitechlight.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\neogreyregular-webfont.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\neogreyregular-webfont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\neogreyregular-webfont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\fonts\SimiansBlogStandard.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\fonts\SimiansBlogStandard.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\fonts\SimiansBlogStandard.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\ui-icon\fonts\ui-icon.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\ui-icon\fonts\ui-icon.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\SimiansBlogStandard16779\ui-icon\fonts\ui-icon.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\spaceman-webfont.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\spaceman-webfont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\spaceman-webfont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\ui-icon.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\ui-icon.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\fonts\ui-icon.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Styles\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Views\FooterCopyright.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Views\Layout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Views\Pager.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Views\Pager.First.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Views\Pager.Last.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Views\Parts\Blogs.recentBlogPosts.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Views\Parts\Search.SearchForm.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SmallBusiness\Views\SiteTitle.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
